@@ -1,24 +1,16 @@
-# HelloWorld Demo
+# Demo: Hello World (Python)
 
-Minimal Python HelloWorld demo.
+Simple Python demo project.
 
-Quick start
+Run (Windows PowerShell):
 
-Install test deps:
-
-```
-python -m pip install -r requirements.txt
-```
-
-Run the script:
-
-```
-python Hello.py
-python Hello.py Alice
+```powershell
+python -m venv venv
+venv\\Scripts\\Activate.ps1
+python app.py
+python test/test.py
 ```
 
-Or run tests:
-
-```
-pytest -q
-```
+Files:
+- Demo/app.py — prints the message
+- Demo/test/test.py — simple assertion test
